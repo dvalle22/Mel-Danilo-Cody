@@ -64,8 +64,8 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/just-the-docs/just-the-docs"
+  "View the repo on GitHub":
+    - "//github.com/dvalle22/Mel-Danilo-Cody"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -124,3 +124,39 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
+
+# Just testing
+markdown_extensions:
+  - toc:
+      toc_depth: 3
+  - attr_list
+  - footnotes
+  - admonition
+  - codehilite
+  - def_list
+  - pymdownx.critic:
+      mode: view
+  - pymdownx.betterem:
+      smart_enable: all
+
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.smartsymbols
+  - pymdownx.keys
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.smartsymbols
+  - pymdownx.tabbed
+  - pymdownx.highlight:
+      #   linenums: true # Line numbering
+      linenums_style: pymdownx.inline
+      #   use_pygments: false
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+  - pymdownx.tasklist:
+      custom_checkbox: true
