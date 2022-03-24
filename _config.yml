@@ -29,6 +29,12 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 
+#Effort in vain
+theme:
+  name: material
+  custom_dir: overrides
+
+
 # Regression tests
 # By default, the pages in /docs/tests are excluded when the ste is built.
 # To include them, comment-out the relevant line above.
