@@ -33,4 +33,11 @@ Changing bit by bit to see how this template works.
 
 ## Typographical Conventions
 !!! warning
-    just want to see how this will work
+    Specifies content that must be read before proceeding.
+    
+:::note
+
+Some **content** with _markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
