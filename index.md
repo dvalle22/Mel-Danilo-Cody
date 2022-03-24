@@ -42,3 +42,7 @@ Some **content** with _markdown_ `syntax`. Check [this `api`](#).
 :::
 
 > :warning: **EMOJI ZONE**: admonitions below do not work!
+
+!!! note 
+
+    Will this work?
