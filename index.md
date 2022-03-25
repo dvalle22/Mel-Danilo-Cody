@@ -18,9 +18,13 @@ Changing bit by bit to see how this template works.
 
 ## Introduction
 
+Welcome! MySQL Workbench User Guide is a step-by-step instruction guide for frequently performed tasks on MySQL Workbench. The documentation for each task can be completed sequentially and guides users through [task1], [task2], and [task3].
+
+MySQL Workbench (or just Workbench) is an application software for database design using the popular relational database management system, MySQL. A powerful tool for software developers, Workbench provides a visual environment to create,execute, and optimize databases through its graphical user interface or with queries written in the SQL programming language.
+
 
 ## Intended User Groups
-
+The user documentation in MySQL Workbench User Guide is intended for the following users:
 
 ## Software Requirements
 
