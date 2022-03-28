@@ -36,6 +36,11 @@ The user documentation in MySQL Workbench User Guide is intended for the followi
 - Access to a working computer and ability to performs basic computer-oriented tasks
 - Ability to navigate yourself about various interfaces, given a set of instructions
 
+## Why MySQL
+- MySQL is one of the easiest and most secure ways to maintain and update a database
+- MySQL provides high-performance at a low cost. In fact MySQL community edition is free!
+- Flexible and usable across all major platforms including: Windows, Mac, Linux, Ubuntu and more
+
 ## Procedures Overview
 - **[Schema Setup and Adding Tables]**
 - **[Writing a Query]**
@@ -43,6 +48,7 @@ The user documentation in MySQL Workbench User Guide is intended for the followi
 
 ## Typographical Conventions
 
+## Notes and Warning Messages
 > ⚠️: **EMOJI ZONE**: Dangerous action
 > 📝: **EMOJI ZONE**: Additional information
 !!! danger
