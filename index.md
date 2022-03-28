@@ -9,7 +9,7 @@ permalink: /
 # MySQL Workbench User Guide
 {: .fs-9 }
 
-Changing bit by bit to see how this template works.
+An user guide for frequently performed tasks on MySQL Workbench.
 {: .fs-6 .fw-300 }
 
 [Get started](#introduction){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/dvalle22/Mel-Danilo-Cody){: .btn .fs-5 .mb-4 .mb-md-0 }
@@ -25,9 +25,12 @@ MySQL Workbench (or just Workbench) is an application software for database desi
 
 ## Intended User Groups
 The user documentation in MySQL Workbench User Guide is intended for the following users:
+- New users who want to start learning MySQL
+- Returnning users who want to review MySQL's commands
 
 ## Software Requirements
-
+- MySQL
+- MySQL Workbench 8.0 CE
 
 ## Prerequisite
 
@@ -36,17 +39,6 @@ The user documentation in MySQL Workbench User Guide is intended for the followi
 
 
 ## Typographical Conventions
-!!! warning
-    Specifies content that must be read before proceeding.
-    
-:::note
 
-Some **content** with _markdown_ `syntax`. Check [this `api`](#).
-
-:::
-
-> :warning: **EMOJI ZONE**: admonitions below do not work!
-
-!!! note 
-
-    Will this work?
+> ⚠️: **EMOJI ZONE**: Dangerous action
+> 📝: **EMOJI ZONE**: Additional information
