@@ -55,22 +55,3 @@ The user documentation in MySQL Workbench User Guide is intended for the followi
 ## Notes and Warning Messages
 > ⚠️: **EMOJI ZONE**: Dangerous action
 > 📝: **EMOJI ZONE**: Additional information
-!!! danger
-    Specifies actions that may cause an error or will cause the application to crash.
-
-[comment]: <> (!!! failure)
-
-[comment]: <> (    Specifies actions that may lead to unexpected behaviour.)
-
-[comment]: <> (!!! bug)
-
-[comment]: <> (    Specifies actions that may cause an error.)
-
-!!! warning
-    Specifies content that must be read before proceeding.
-
-!!! Info
-    Indicates additional information or tips.
-
-!!! success
-    Indicates what success looks like.
