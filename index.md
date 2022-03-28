@@ -42,9 +42,9 @@ The user documentation in MySQL Workbench User Guide is intended for the followi
 - Flexible and usable across all major platforms including: Windows, Mac, Linux, Ubuntu and more
 
 ## Procedures Overview
-- **[Schema Setup and Adding Tables]**
-- **[Writing a Query]**
-- **[Learning MySQL statements and Clauses]**
+- **Schema Setup and Adding Tables**
+- **Writing a Query**
+- **Learning MySQL statements and Clauses**
 
 ## Typographical Conventions
 // Add styling later
