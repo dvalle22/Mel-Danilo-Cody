@@ -47,6 +47,10 @@ The user documentation in MySQL Workbench User Guide is intended for the followi
 - **[Learning MySQL statements and Clauses]**
 
 ## Typographical Conventions
+// Add styling later
+- User Input
+- Terminal Output
+- **Show Broken Code** Explain how you can hover over to see Error message to troubleshoot
 
 ## Notes and Warning Messages
 > ⚠️: **EMOJI ZONE**: Dangerous action
