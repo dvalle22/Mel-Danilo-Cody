@@ -26,19 +26,41 @@ MySQL Workbench (or just Workbench) is an application software for database desi
 ## Intended User Groups
 The user documentation in MySQL Workbench User Guide is intended for the following users:
 - New users who want to start learning MySQL
-- Returnning users who want to review MySQL's commands
+- Returning users who want to review MySQL's commands
 
 ## Software Requirements
 - MySQL
 - MySQL Workbench 8.0 CE
 
 ## Prerequisite
-
+- Access to a working computer and ability to performs basic computer-oriented tasks
+- Ability to navigate yourself about various interfaces, given a set of instructions
 
 ## Procedures Overview
-
+- **[Schema Setup and Adding Tables]**
+- **[Writing a Query]**
+- **[Learning MySQL statements and Clauses]**
 
 ## Typographical Conventions
 
 > ⚠️: **EMOJI ZONE**: Dangerous action
 > 📝: **EMOJI ZONE**: Additional information
+!!! danger
+    Specifies actions that may cause an error or will cause the application to crash.
+
+[comment]: <> (!!! failure)
+
+[comment]: <> (    Specifies actions that may lead to unexpected behaviour.)
+
+[comment]: <> (!!! bug)
+
+[comment]: <> (    Specifies actions that may cause an error.)
+
+!!! warning
+    Specifies content that must be read before proceeding.
+
+!!! Info
+    Indicates additional information or tips.
+
+!!! success
+    Indicates what success looks like.
