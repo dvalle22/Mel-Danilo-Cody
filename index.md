@@ -49,23 +49,13 @@ The user documentation in MySQL Workbench User Guide is intended for the followi
 ## Typographical Conventions
 In MySQL, you can often troubleshoot your own errors, but highlighting over red_underlined text as can be seen in the example below.
 
-    ``` { .js .annotate }
     SELECT *
     FROM Reef
-    WHERE reefName IN <ins>SELECT</ins> // (1)
-
-    ```
+    WHERE reefName IN <span style="text-decoration: underline">SELECT</span> // (1)
+    
     1."SELECT is not valid at this position for this server version, expecting FOR, LOCK, TABLE, VALUES, WITH, '('
     
-Try Again:
-   
-     ``` { .js .annotate }
-    const sum = (numbers) => {
-        return numbers.reduce((a, b) => a + b, 0); // (1)
-    };
-    ```
     
-    1. Return the sum of the numbers in the list.
 ## Notes and Warning Messages
 > ⚠️: **EMOJI ZONE**: Dangerous action
 > 📝: **EMOJI ZONE**: Additional information
