@@ -51,27 +51,17 @@ The user documentation in MySQL Workbench User Guide is intended for the followi
 - User Input
 - Terminal Output
 - **Show Broken Code** Explain how you can hover over to see Error message to troubleshoot
+In MySQL, you can often troubleshoot your own errors, but highlighting over red_underlined text as can be seen in the example below.
 
+    ``` { .js .annotate }
+    SELECT *
+    FROM Reef
+    WHERE reefName IN <ins>SELECT</ins> // (1)
+
+    ```
+    1."SELECT is not valid at this position for this server version, expecting FOR, LOCK, TABLE, VALUES, WITH, '('
+   
+ 
 ## Notes and Warning Messages
 > ⚠️: **EMOJI ZONE**: Dangerous action
 > 📝: **EMOJI ZONE**: Additional information
-
-!!! danger
-    Specifies actions that may cause an error or will cause the application to crash.
-
-[comment]: <> (!!! failure)
-
-[comment]: <> (    Specifies actions that may lead to unexpected behaviour.)
-
-[comment]: <> (!!! bug)
-
-[comment]: <> (    Specifies actions that may cause an error.)
-
-!!! warning
-    Specifies content that must be read before proceeding.
-
-!!! Info
-    Indicates additional information or tips.
-
-!!! success
-    Indicates what success looks like.
