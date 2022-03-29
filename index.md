@@ -47,7 +47,7 @@ The user documentation in MySQL Workbench User Guide is intended for the followi
 - **Learning MySQL statements and Clauses**
 
 ## Typographical Conventions
-In MySQL, you can often troubleshoot your own errors, but highlighting over red_underlined text as can be seen in the example below.
+In MySQL, you can often troubleshoot your own errors, by highlighting over red_underlined text as can be seen in the example below.
 
     SELECT *
     FROM Reef
@@ -55,6 +55,11 @@ In MySQL, you can often troubleshoot your own errors, but highlighting over red_
     
     1."SELECT is not valid at this position for this server version, expecting FOR, LOCK, TABLE, VALUES, WITH, '('
     
+Statements and Clauses, and various datatypes such as strings in MySQL will often be highlighted in another color:
+
+    SELECT u.id FROM user u, user grace
+    WHERE grace.fName = "grace" AND grace.lname = "Jeon" AND(
+    SELECT count(*) FROM (
     
 ## Notes and Warning Messages
 > ⚠️: **EMOJI ZONE**: Dangerous action
