@@ -9,7 +9,7 @@ nav_order: 2
 Welcome to MySQL Workbench User Guide, the guide for frequently performed tasks on MySQL Workbench.
 
 ![MySQL Workbench logo](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/workbench-logo.png?raw=true)
-{: style="height: 400px;" }
+{: style="width: 300px;" }
 
 
 ## Installation
