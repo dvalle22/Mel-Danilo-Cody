@@ -10,7 +10,7 @@ permalink: /docs/schema
 
 In this section, you will start by creating your first schema and table.
 
-###### Outcome
+##### Outcome
 
 After finishing this section, you will be able to:
 
