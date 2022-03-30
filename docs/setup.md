@@ -8,7 +8,7 @@ nav_order: 2
 
 Welcome to MySQL Workbench User Guide, the guide for frequently performed tasks on MySQL Workbench.
 
-![MySQL Workbench logo](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/workbench-logo.png)
+![MySQL Workbench logo](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/workbench-logo.png?raw=true)
 
 
 ## Why MySQL Workbench
@@ -30,4 +30,4 @@ After you finish installing and setting up, open your MySQL Workbench.
 
 If you can see something similar to this image, congratulation! You can now proceed to the next step.
 
-![MySQL Workbench homepage](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/homepage.png)
+![MySQL Workbench homepage](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/homepage.png?raw=true)
