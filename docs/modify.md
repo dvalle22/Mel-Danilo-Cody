@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Query to Modify Data
-nav_order: 3
+nav_order: 4
 ---
 
 # Query to Modify Data
