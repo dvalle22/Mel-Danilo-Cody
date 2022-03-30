@@ -1,10 +1,10 @@
 ---
 layout: default
-title: MySQL Workbench setup
+title: MySQL Workbench Setup
 nav_order: 2
 ---
 
-# MySQL Workbench setup
+# MySQL Workbench Setup
 WORK IN PROGRESS
 
 ## Header 2
