@@ -34,7 +34,7 @@ The user documentation in MySQL Workbench User Guide is intended for the followi
 ## Prerequisites
 - Have access to a working computer and ability to performs basic computer-oriented tasks
 - Have bility to navigate yourself about various interfaces, given a set of instructions
-- Already set up a MySQL connection (If not, please refer to our [Set Up Guide](#procedures-overview))
+- Already set up a MySQL connection (If not, please refer to our [Set Up Guide](docs/setup))
 
 ## Why MySQL
 - MySQL is one of the easiest and most secure ways to maintain and update a database.
@@ -42,40 +42,21 @@ The user documentation in MySQL Workbench User Guide is intended for the followi
 - Flexible and usable across all major platforms, including: Windows, Mac, Linux, Ubuntu and more.
 
 ## Procedures Overview
-[MySQL Workbench setup](#introduction)
+[MySQL Workbench setup](docs/setup)
 
-[Schema Setup and Adding Tables](#introduction)
+[Schema Setup and Adding Tables](docs/schema)
 
-[Query to Modify Data](#introduction)
+[Query to Modify Data](docs/modify)
 
-[Query to Display Data](#introduction)
+[Query to Display Data](docs/display)
+
+[MySQL Workbench Tips](docs/tips)
 
 ## Typographical Conventions
     
-### Warning Messages
-
     📖: Additional information
     > This icon notes where additional information, such as notes and shortcut, is provided.
     
     ⚠️: Dangerous action
     > This icon notes where a dangerous action could take place.
     
-### MySQL Workbench Tips
-Statements, clauses, and various datatypes in MySQL will often be highlighted in another color. \
-Here is an example:
-
-```sql
-SELECT id, dob
-FROM User
-WHERE name = "Grace" AND dob > 20000000;
-```
-
-With MySQL Workbench, you can often troubleshoot your own errors, by highlighting over red_underlined text as can be seen in the example below.
-
-```sql
-SELECT *
-FROM Reef
-WHERE reefName IN [SELECT] // (1)
-
-1. SELECT is not valid at this position for this server version, expecting FOR, LOCK, TABLE, VALUES, WITH, '('
-```
