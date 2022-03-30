@@ -9,15 +9,8 @@ nav_order: 2
 Welcome to MySQL Workbench User Guide, the guide for frequently performed tasks on MySQL Workbench.
 
 ![MySQL Workbench logo](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/workbench-logo.png?raw=true)
-{: style="height: 200px;
-  width: 200px;" }
+{: style="height: 400px;" }
 
-
-## Why MySQL Workbench
-
-MySQL Workbench is a visual database design tool for SQL development. It is one of the most popular MySQL GUI (Graphical User iInterface) tools available for Windows, Linux and Mac.
-
-One thing that makes MySQL Workbench stands out is that it is free, easy to install and easy to use. It allows individuals to design, model, generate, and manage databases in a single convenient software package.
 
 ## Installation
 

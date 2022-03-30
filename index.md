@@ -41,6 +41,12 @@ The user documentation in MySQL Workbench User Guide is intended for the followi
 - MySQL provides high-performance at a low cost. In fact, MySQL community edition is free!
 - Flexible and usable across all major platforms, including: Windows, Mac, Linux, Ubuntu and more.
 
+## Why MySQL Workbench
+
+MySQL Workbench is a visual database design tool for SQL development. It is one of the most popular MySQL GUI (Graphical User Interface) tools available for Windows, Linux and Mac.
+
+One thing that makes MySQL Workbench stands out is that it is free, easy to install and easy to use. It allows individuals to design, model, generate, and manage databases in a single convenient software package.
+
 ## Procedures Overview
 [MySQL Workbench setup](docs/setup)
 
