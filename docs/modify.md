@@ -48,6 +48,6 @@ Alternatively, right-click the user table, and click on the first option **SELEC
 After running the query, you should see a Result Grid made up of every column in the user table.
 
 ![MySQL full_user_table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/table_screenshot.png?raw=true)
-{: style="height: 400px;
-  width: 400px;" }
+{: style="height: 800px;
+  width: 800px;" }
 ## Header 2
