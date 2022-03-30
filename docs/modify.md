@@ -5,7 +5,7 @@ nav_order: 4
 ---
 
 # Query to Modify Data
-After creating a table in MySQL, you are able to add data to the table by writing a query, by using the [INSERT INTO](https://dvalle22.github.io/Mel-Danilo-Cody/) statement.
+After creating a table in MySQL, you are able to add data to the table by writing a query, by using the [INSERT INTO](https://dvalle22.github.io/Mel-Danilo-Cody/#typographical-conventions) statement.
 
 Copy the code sample below, and try running it on your own MySQL workbench:
 
@@ -46,4 +46,6 @@ After running the query, you should see a Result Grid made up of every column in
 ![MySQL full_user_table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/table_screenshot.png?raw=true)
 {: style="height: 800px;
   width: 800px;" }
+  
+Now that the user table is populated with a list of users and their accompanying information, we can continue to modify 
 ## Header 2
