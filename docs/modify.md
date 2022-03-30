@@ -5,7 +5,7 @@ nav_order: 4
 ---
 
 # Query to Modify Data
-After creating a table in MySQL, you are able to add data to the table by writing a query, by using the [INSERT INTO](https://dvalle22.github.io/Mel-Danilo-Cody/).
+After creating a table in MySQL, you are able to add data to the table by writing a query, by using the [INSERT INTO](https://dvalle22.github.io/Mel-Danilo-Cody/) statement.
 
 Copy the code sample below, and try running it on your own MySQL workbench:
 
@@ -36,4 +36,18 @@ INSERT INTO `User` (`id`, `fName`, `lName`, `DoB`, `gender`, `email`, `program`)
 
 ```
 
+To see if you've succesfully added the provided data into your table, you can write a simple query:
+
+```sql
+
+SELECT * FROM user_demo.user;
+
+```
+
+Alternatively, right-click the user table, and click on the first option **SELECT ROWS - LIMIT 1000**.
+After running the query, you should see a Result Grid made up of every column in the user table.
+
+![MySQL full_user_table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/workbench-logo.png?raw=true)
+{: style="height: 400px;
+  width: 400px;" }
 ## Header 2
