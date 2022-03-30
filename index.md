@@ -33,8 +33,9 @@ The user documentation in MySQL Workbench User Guide is intended for the followi
 - MySQL Workbench 8.0 CE
 
 ## Prerequisite
-- Access to a working computer and ability to performs basic computer-oriented tasks
-- Ability to navigate yourself about various interfaces, given a set of instructions
+- Have access to a working computer and ability to performs basic computer-oriented tasks
+- Have bility to navigate yourself about various interfaces, given a set of instructions
+- Already set up a MySQL connection (If not, please refer to our [Set Up Guide])
 
 ## Why MySQL
 - MySQL is one of the easiest and most secure ways to maintain and update a database.
@@ -49,18 +50,22 @@ The user documentation in MySQL Workbench User Guide is intended for the followi
 ## Typographical Conventions
 In MySQL, you can often troubleshoot your own errors, by highlighting over red_underlined text as can be seen in the example below.
 
+    ```sql
     SELECT *
     FROM Reef
     WHERE reefName IN <span style="text-decoration: underline">SELECT</span> // (1)
+    ```
     
     1."SELECT is not valid at this position for this server version, expecting FOR, LOCK, TABLE, VALUES, WITH, '('
     
 Statements and Clauses, and various datatypes such as strings in MySQL will often be highlighted in another color:
 
+    ```sql
     SELECT u.id FROM user u, user grace
-    WHERE grace.fName = "grace" AND grace.lname = "Jeon" AND(
-    SELECT count(*) FROM (
-    
-## Notes and Warning Messages
-> ⚠️: **EMOJI ZONE**: Dangerous action
-> 📝: **EMOJI ZONE**: Additional information
+    WHERE grace.fName = "grace" AND grace.lname = "Jeon";
+    ```
+## Warning Messages
+    📖: Additional information
+    > This icon notes where additional information, such as notes and shortcut, is provided.
+    ⚠️: Dangerous action
+    > This icon notes where a dangerous action could take place.
