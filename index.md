@@ -31,7 +31,7 @@ The user documentation in MySQL Workbench User Guide is intended for the followi
 - MySQL
 - MySQL Workbench 8.0 CE
 
-## Prerequisite
+## Prerequisites
 - Have access to a working computer and ability to performs basic computer-oriented tasks
 - Have bility to navigate yourself about various interfaces, given a set of instructions
 - Already set up a MySQL connection (If not, please refer to our [Set Up Guide](#procedures-overview))
