@@ -47,7 +47,7 @@ SELECT * FROM user_demo.user;
 Alternatively, right-click the user table, and click on the first option **SELECT ROWS - LIMIT 1000**.
 After running the query, you should see a Result Grid made up of every column in the user table.
 
-![MySQL full_user_table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/workbench-logo.png?raw=true)
+![MySQL full_user_table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/table_screenshot.png?raw=true)
 {: style="height: 400px;
   width: 400px;" }
 ## Header 2
