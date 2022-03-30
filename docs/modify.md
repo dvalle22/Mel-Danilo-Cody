@@ -5,12 +5,11 @@ nav_order: 4
 ---
 
 # Query to Modify Data
-After creating a table in MySQL, you are able to add data to the table by writing a query, by using the [INSERT INTO](https://dvalle22.github.io/Mel-Danilo-Cody/).
+After creating a table in MySQL, you are able to add data to the table by writing a query, by using the [INSERT INTO](https://dvalle22.github.io/Mel-Danilo-Cody/#typographical-conventions) statement.
 
 Copy the code sample below, and try running it on your own MySQL workbench:
 
 ```sql
-
 INSERT INTO `User` (`id`, `fName`, `lName`, `DoB`, `gender`, `email`, `program`) VALUES
 (9734109, 'Eduard', 'Khil', '2001-12-22', 'Male', 'trolleyguy@gmail.com', 'Computing'),
 (9734512, 'Mikhail', 'Mishustin', '2003-09-16', 'Male', 'mikki.mishutin@hotmail.com', 'Accounting'),
@@ -33,7 +32,20 @@ INSERT INTO `User` (`id`, `fName`, `lName`, `DoB`, `gender`, `email`, `program`)
 (66234593, 'Honore', 'Avare', '1991-06-25', 'Male', 'honore@hotmail', 'Accounting'),
 (66234594, 'Margit', 'Gade', '1993-04-24', 'Female', 'margit.gade1@uq.edu.au', 'Business'),
 (66234595, 'Lavinia', 'Pinto', '1992-01-19', 'Male', 'lavinia@hotmail.com', 'Business');
-
 ```
 
+To see if you've succesfully added the provided data into your table, you can write a simple query:
+
+```sql
+SELECT * FROM user_demo.user;
+```
+
+Alternatively, right-click the user table, and click on the first option **SELECT ROWS - LIMIT 1000**.
+After running the query, you should see a Result Grid made up of every column in the user table.
+
+![MySQL full_user_table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/table_screenshot.png?raw=true)
+{: style="height: 800px;
+  width: 800px;" }
+  
+Now that the user table is populated with a list of users and their accompanying information, we can continue to modify 
 ## Header 2
