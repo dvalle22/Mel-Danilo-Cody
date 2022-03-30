@@ -1,7 +1,7 @@
 ---
 layout: default
-title: MySQL Workbench setup
-nav_order: 3
+title: Query to Display Data
+nav_order: 4
 ---
 
 # Query to Modify Data
