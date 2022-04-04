@@ -14,9 +14,10 @@ In this tutorial, you will be a teacher who needs to keep a record of students w
 With this information, let's create your 'User' table.
 
 1. A table needs a schema to locate on. After creating a schema, you need to manually selected that schema to be the current schema. Check if you are inside a schema by looking at the Schemas tab.
+
     ![MySQL Workbench no schema selected](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/no-schema-selected.png?raw=true)
     
-    If no name is in bold, it means that you are not currently inside any schema.
+    If there is no name in bold, it means that you are not currently inside any schema.
     
 2. In the Schemas tab, hover over 'user_demo' and double click on the name. After this, 'user_demo' will turn bold, indicating that it is selected as the current schema.
     
@@ -64,7 +65,7 @@ With this information, let's create your 'User' table.
     
     ![MySQL Workbench table updated](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/update-table-show-up.png?raw=true)
     
-6. Check if you have created the correct table by double clicked on 'User' under 'Tables' under 'user_demo'. The Information tab below will display the columns in 'User'. Make sure it match with the data types we specify in the code before proceeding to the next section [Query to Display Data](docs/display).
+6. Check if you have created the correct table by double clicked on 'User' under 'Tables' under 'user_demo'. The Information tab below will display the columns in 'User'. Make sure it match with the data types we specify in the code before proceeding to the next section, [Query to Display Data](docs/display).
     
     ![MySQL Workbench see new table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/update-table-show-details.png?raw=true)
     
