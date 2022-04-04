@@ -23,15 +23,14 @@ Follow the steps below to acheive this.
     A blank text file should appear in the centre pane of MySQL Workbench.
     
     ![MySQL Workbench blank text file](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/querydisplay/blank_textfile.png?raw=true)
-
----------------------------
+<br />
 2. Copy the block of code below
       ```sql
     SELECT *
     FROM user;
     ```
 
----------------------------
+<br />
 3. Paste the copied code into the blank text file. 
     
     ![MySQL Workbench code pasted to query file](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/querydisplay/select_all_pasted.png?raw=true)
@@ -42,19 +41,19 @@ Follow the steps below to acheive this.
     
     ![MySQL Workbench code pasted to query file different table name](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/querydisplay/own_table.png?raw=true)
     
----------------------------
+<br />
 4. Click on the execute icon
 
     ![MySQL Workbench execute tab](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/querydisplay/execute.png?raw=true)
     
----------------------------
+<br />
 5. View the table in the centre pane. 
 
     ![MySQL Workbench table is now visible](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/querydisplay/table_appears.png?raw=true)
     
     Depending on your window size, you may need to hover your mouse over any of the four sides of the pane to readjust its size.
     
----------------------------
+<br />
 
 
 
