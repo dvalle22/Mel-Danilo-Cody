@@ -48,9 +48,11 @@ With this information, let's create your 'User' table.
     
 4. Click the thunder icon at the top of the SQL tab to execute the SQL file.
     
-        ⚠️: If you keep the line `CREATE SCHEMA IF NOT EXISTS user_demo;`, your Output tab will print a warning message.
-        > This is because MySQL detects that there is potentially two schemas with the same name. This is not an error, because the keyword 'IF NOT EXISTS' prevents this from happening.
-        > However, deleting the keyword 'IF NOT EXISTS' will result in an error and a red 'X' mark will appear in the Output tab. 
+        ⚠️: If you keep the line `CREATE SCHEMA IF NOT EXISTS user_demo;`, your Output tab will
+        print a warning message.
+        > This is because MySQL detects that there is potentially two schemas with the same name.
+        > This is not an error, because the keyword 'IF NOT EXISTS' prevents this from happening.
+        > Without 'IF NOT EXISTS', a red 'X' mark will appear in the Output tab indicating an error. 
     
     Your table has been created. However, it has not showed up in the Schemas tab. Therefore, we need to reset the Schemas tab.
     
