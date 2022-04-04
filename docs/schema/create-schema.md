@@ -51,7 +51,7 @@ nav_order: 1
 
     Your schema has been created. However, it has not showed up in the Schemas tab. Therefore, we need to reset the Schemas tab.
     
-6. Hovering your cursor over the Schemas tab. Right click and select 'Refresh All'.
+6. Hover your cursor over the Schemas tab. Right click and select 'Refresh All'.
     
     ![MySQL Workbench update schema](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/update-schema.png?raw=true)
 

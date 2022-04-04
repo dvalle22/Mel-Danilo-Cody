@@ -56,7 +56,7 @@ With this information, let's create your 'User' table.
     
     Your table has been created. However, it has not showed up in the Schemas tab. Therefore, we need to reset the Schemas tab.
     
-5. Hovering your cursor over the Schemas tab. Right click and select 'Refresh All'.
+5. Hover your cursor over the Schemas tab. Right click and select 'Refresh All'.
     
     ![MySQL Workbench update table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/update-table.png?raw=true)
     
