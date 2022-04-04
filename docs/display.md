@@ -24,6 +24,7 @@ Follow the steps below to acheive this.
     
     ![MySQL Workbench blank text file](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/querydisplay/blank_textfile.png?raw=true)
 
+---------------------------
 2. Copy the block of code below
       ```sql
     SELECT *
@@ -43,10 +44,12 @@ Follow the steps below to acheive this.
     
 ---------------------------
 4. Click on the execute icon
+
     ![MySQL Workbench execute tab](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/querydisplay/execute.png?raw=true)
     
 ---------------------------
 5. View the table in the centre pane. 
+
     ![MySQL Workbench table is now visible](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/querydisplay/table_appears.png?raw=true)
     
     Depending on your window size, you may need to hover your mouse over any of the four sides of the pane to readjust its size.
