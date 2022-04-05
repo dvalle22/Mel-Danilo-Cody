@@ -45,7 +45,7 @@ With this information, let's create your 'User' table.
             - date: a date in YYYY-MM-DD format
             - enum: a string that is chosen from a list of possible values.
       
-    For more data types, visit [MySQL Workbench tips](docs/tips/#basic-data-types)
+    For more data types, visit [MySQL Workbench tips](https://dvalle22.github.io/Mel-Danilo-Cody/docs/tips#basic-data-types)
     
 4. Click the thunder icon at the top of the SQL tab to execute the SQL file.
     
