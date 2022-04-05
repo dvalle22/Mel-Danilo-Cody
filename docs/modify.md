@@ -74,5 +74,30 @@ To check that you've correctly added the 'Age' column into your user table, you 
 SELECT * FROM user_demo.user;
 ```
 The resulting output should look something like this:
+
 ![MySQL Null Table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/Null_table.png?raw=true)
+
 Notice that the Values in the Age column are at present [NULL](https://dvalle22.github.io/Mel-Danilo-Cody/#typographical-conventions) because we have not recorded an age for any of our students yet!
+
+Now let's say we want to set the age of one of our students, Eduard, to 20. We can do so, by writing a query like the one shown below:
+```sql
+UPDATE user
+SET Age = 20
+WHERE fname = 'Eduard';
+```
+We use [UPDATE](https://dvalle22.github.io/Mel-Danilo-Cody/#typographical-conventions) here to modify data in an existing table. The [SET](https://dvalle22.github.io/Mel-Danilo-Cody/#typographical-conventions) clause is then used in conjuction with UPDATE to specificy exactly which columns we want to update. Finally, the [WHERE](https://dvalle22.github.io/Mel-Danilo-Cody/#typographical-conventions) clause is used as a filter to update only the column that matches our required constraint. Here, we are saying, update the 'user' table, and set the column 'Age' to 20, if and only if the first name of the user is 'Eduard'.
+
+Upon running the query, your user table should now be updated to reflect the results. Once again, run the query that shows all the data from the user table (the same one that you previously ran twice), and you should notice that the first row has been updated in accordance with your UPDATE query.
+
+![MySQL Eduard](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/Eduard.png?raw=true)
+
+Great, we've managed to add Eduard's age, to the table, but why do we need his age when we already know his date of birth? It's best practice to keep your database clean, and only filled with the most needed information. Let's say then that we have decided to remove the Age column from our user table due to redundancy. Removing a column from a table is just as easy as adding one, and the query should look very similar:
+```sql
+ALTER TABLE user
+DROP COLUMN Age;
+```
+Again, we are altering the table here, but instead of using the 'ADD' clause, we have decided to instead use the [DROP](https://dvalle22.github.io/Mel-Danilo-Cody/#typographical-conventions) clause. As you can probably guess, the purpose of this query then is to remove the 'Age' column from our user table. If we run this query, and our user query one last time, we should see that we have successfully dropped the 'Age' column from the user table!
+
+![MySQL Drop](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/Drop_table.png?raw=true)
+
+In this section, you have learned to populate an existing table with values, as well as how to modify an existing table, by adding, removing, and updating the data stored in the table. In the next section [Query to Display Data](https://dvalle22.github.io/Mel-Danilo-Cody/docs/display/#query-to-display-data), you will learn how to write queries that will allow you to read from your table.
