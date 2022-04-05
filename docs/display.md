@@ -7,7 +7,7 @@ nav_order: 5
 # Query to Display Data
 For this section we will be displaying a table from the database in MySQL Workbench. 
 
-This tutorial works with the table used in [Query to Modify Data](modify) and also works with any tables on MySQL in general.
+This tutorial works with the table used in [Query to Modify Data](https://dvalle22.github.io/Mel-Danilo-Cody/docs/modify/#query-to-modify-data) and also works with any tables on MySQL in general.
 
 A visual representation of a table in MySQL will look like the following figure.
 
