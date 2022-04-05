@@ -4,7 +4,7 @@ title: Glossary of Definitions
 nav_order: 7
 ---
 
-# GLOSSARY
+# Glossary
 Here, you can find some of the most commonly used clauses in SQL.
 
 ##### [INSERT INTO](https://dvalle22.github.io/Mel-Danilo-Cody/docs/modify/#populating-a-table)
