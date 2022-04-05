@@ -6,14 +6,10 @@ nav_order: 7
 
 # Glossary of Definitions
 
-## Definition
+Here, you can find some of the most commonly used clauses in SQL.
 
 ##### [Tuple](https://dvalle22.github.io/Mel-Danilo-Cody/docs/modify/#populating-a-table)
 A singular row in a database consisting of a set of related data
-
-## Commonly Used Clauses
-
-Here, you can find some of the most commonly used clauses in SQL.
 
 ##### [\*](https://dvalle22.github.io/Mel-Danilo-Cody/docs/modify/#populating-a-table)
 Asking the query to return all columns of the queried tables
