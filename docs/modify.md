@@ -55,6 +55,9 @@ After running the query, you should see a Result Grid made up of every column in
 
 ![MySQL full_user_table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/table_screenshot.png?raw=true)
 
+Alternatively, you can simply right click the user table, and click on the first option: **Select Rows - Limit 1000**, to display the first 1000 results in your table. In this case, our table only has 21 tuples, therefore, it will display the full table
+
+![MySQL Select Rows](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/Select_Rows.png?raw=true)
 ## Altering a Table
 Now that the user table is populated with a list of users and their accompanying information, we can continue to modify the table. Let's say that you wanted to start recording the age of all your students, and you wanted to add an age column to your database. To do that, you would have to alter your table:
 
@@ -83,7 +86,7 @@ UPDATE user
 SET Age = 20
 WHERE fname = 'Eduard';
 ```
-We use [UPDATE](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#drop) here to modify data in an existing table. The [SET](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#set) clause is then used in conjuction with UPDATE to specificy exactly which columns we want to update. Finally, the [WHERE](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#where) clause is used as a filter to update only the column that matches our required constraint. Here, we are saying, update the 'user' table, and set the column 'Age' to 20, if and only if the first name of the user is 'Eduard'.
+We use [UPDATE](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#drop) here to modify data in an existing table. The [SET](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#set) clause is then used in conjuction with UPDATE to specificy exactly which columns we want to update. Finally, the [WHERE](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#where) clause is used as a filter to update only the columns that matches our required constraint. Here, we are saying: update the 'user' table, and set the column 'Age' to 20, if and only if the first name of the user is 'Eduard'.
 
 Upon running the query, your user table should now be updated to reflect the results. Once again, run the query that shows all the data from the user table (the same one that you previously ran twice), and you should notice that the first row has been updated in accordance with your UPDATE query.
 
