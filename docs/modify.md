@@ -8,7 +8,7 @@ nav_order: 4
 In this section, you will learn how to modify data from an existing table. If you haven't already, make sure you add the table provided to you in the previous section of this tutorial: [Creating a Table](https://dvalle22.github.io/Mel-Danilo-Cody/docs/schema/create-table/#create-a-table)
 
 ## Populating a Table
-After creating a table in MySQL, you are able to add data to the table by writing a query, by using the [INSERT INTO](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#insert-into) statement.
+After creating a table in MySQL, you are able to add data to the table by writing a query, by using the [INSERT INTO](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#insert-into) statement.
 
 1. Copy the code sample below, and try running it on your own MySQL workbench:
 
