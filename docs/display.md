@@ -68,9 +68,7 @@ Displaying the entire table can also be done through the MySQL Workbench graphic
     
 2. Click on the arrow next to the schema containing the table you would like to display.
 
-     ![MySQL Workbench schema name and arrow to expand list](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/querydisplay/schema_unexpanded.png?raw=true)
-
-    Another list of items should appear directly underneath your schema, and the arrow next to the schema should be pointing down.
+     Another list of items should appear directly underneath your schema, and the arrow next to the schema should be pointing down.
 
      ![MySQL Workbench sublist appears under schema](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/querydisplay/schema_sublist.png?raw=true)
 
@@ -82,10 +80,6 @@ Displaying the entire table can also be done through the MySQL Workbench graphic
     
     ![MySQL Workbench right clicking a table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/querydisplay/rightclick_table.png?raw=true)
     
-5. Click on 'Select Rows - Limit 1000'. 
-
-    ![MySQL Workbench clicking the select rows option](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/querydisplay/selectrows_limit1000.png?raw=true)
-    
-    A new tab with SQL code and a visual representation of the table will appear in the centre panel.
+    Click on 'Select Rows - Limit 1000'. A new tab with SQL code and a visual representation of the table will appear in the centre panel.
     
     ![MySQL Workbench visual table shown](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/querydisplay/visual_table.png?raw=true)
