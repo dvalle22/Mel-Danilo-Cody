@@ -1,38 +1,38 @@
 ---
 layout: default
-title: Glossary of Definition
+title: Glossary of Definitions
 nav_order: 7
 ---
 
-#GLOSSARY
+# GLOSSARY
 Here, you can find some of the most commonly used clauses in SQL.
 
-##### INSERT INTO
+##### [INSERT INTO]
 Used to insert new records into a table
 
-##### Tuple
+##### [Tuple]
 A singular row in a database consisting of a set of related data
 
-##### SELECT
+##### [SELECT]
 Selects data from a database
 
-##### *
+##### [*]
 Asking the query to return all columns of the queried tables
 
-##### FROM
+##### [FROM]
 Used to designate the table that you want to select data from
 
-##### ALTER TABLE
+##### [ALTER TABLE]
 Used when you want to add, delete or modify columns from an existing table
 
-##### ADD
+##### [ADD]
 Denotes that you want to add column(s) to an existing table
 
-##### DROP
+##### [DROP]
 Denotes that you want delete column(s) from an existing table
 
-##### UPDATE
+##### [UPDATE]
 Modify data in an existing table
 
-##### SET
+##### [SET]
 Used in conjunction with UPDATE to specify which columns we want to update
