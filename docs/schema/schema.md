@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Schema Setup and Adding Tables
+title: Schema and Table Setup
 has_children: true
 nav_order: 3
 permalink: /docs/schema
 ---
 
-# Schema Setup and Adding Tables
+# Schema and Table Setup
 
 In this section, you will start by creating your first schema and table.
 
@@ -14,7 +14,7 @@ In this section, you will start by creating your first schema and table.
 
 Before attempting this section, make sure you have your MySQL and MySQL Workbench installed correctly.
 
-If you haven't done so, consult our [MySQL Workbench setup](docs/setup).
+If you haven't done so, consult our [MySQL Workbench Setup Guide](docs/setup).
 
 ##### Outcome
 

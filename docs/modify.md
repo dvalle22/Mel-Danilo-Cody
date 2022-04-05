@@ -37,7 +37,7 @@ INSERT INTO `User` (`id`, `fName`, `lName`, `DoB`, `gender`, `email`, `program`)
 (66234595, 'Lavinia', 'Pinto', '1992-01-19', 'Male', 'lavinia@hotmail.com', 'Business');
 ```
 
-2. Paste the contents, into a query tab, and run it using the lightning bolt icon. Essentially, what we are doing with this query, is that we are inserting into an existing 'User' table a series of 21 [Tuples](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#tuple), which will populate the table with all the provided information, to store for future usage.
+2. Paste the contents, into a query tab, and run it using the lightning bolt icon. Essentially, what we are doing with this query, is that we are inserting into an existing 'User' table a series of 21 [Tuples](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#tuple), which will populate the table with all the provided information, to store for future usage.
 
    ![MySQL example table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/sample workbench.png?raw=true)
 
@@ -68,7 +68,7 @@ INSERT INTO `User` (`id`, `fName`, `lName`, `DoB`, `gender`, `email`, `program`)
    ADD Age int;
    ```
 
-   Use the statement [ALTER TABLE](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#alter-table) when you want to add, delete or modify columns in an existing table. So here, you are altering the user table, and the method you are using to alter it with is by [Adding](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#add) a column named age, which will store an integer. Again, run the query by clicking the lightning bolt. If successful, you should once again see a green checkmark in your Output terminal:
+   Use the statement [ALTER TABLE](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#alter-table) when you want to add, delete or modify columns in an existing table. So here, you are altering the user table, and the method you are using to alter it with is by [Adding](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#add) a column named age, which will store an integer. Again, run the query by clicking the lightning bolt. If successful, you should once again see a green checkmark in your Output terminal:
 
    ![MySQL Add Column](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/Alter_table_add.png?raw=true)
 
@@ -80,7 +80,7 @@ INSERT INTO `User` (`id`, `fName`, `lName`, `DoB`, `gender`, `email`, `program`)
 
    ![MySQL Null Table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/Null_table.png?raw=true)
 
-   Notice that the Values in the Age column are at present [NULL](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#null) because we have not recorded an age for any of our students yet!
+   Notice that the Values in the Age column are at present [NULL](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#null) because we have not recorded an age for any of our students yet!
 
 3. Now let's say we want to set the age of one of our students, Eduard, to 20. We can do so, by writing a query like the one shown below:
    ```sql
@@ -88,7 +88,7 @@ INSERT INTO `User` (`id`, `fName`, `lName`, `DoB`, `gender`, `email`, `program`)
    SET Age = 20
    WHERE fname = 'Eduard';
    ```
-   We use [UPDATE](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#drop) here to modify data in an existing table. The [SET](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#set) clause is then used in conjuction with UPDATE to specificy exactly which columns we want to update. Finally, the [WHERE](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#where) clause is used as a filter to update only the columns that matches our required constraint. Here, we are saying: update the 'user' table, and set the column 'Age' to 20, if and only if the first name of the user is 'Eduard'.
+   We use [UPDATE](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#drop) here to modify data in an existing table. The [SET](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#set) clause is then used in conjuction with UPDATE to specificy exactly which columns we want to update. Finally, the [WHERE](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#where) clause is used as a filter to update only the columns that matches our required constraint. Here, we are saying: update the 'user' table, and set the column 'Age' to 20, if and only if the first name of the user is 'Eduard'.
 
 4. Upon running the query, your user table should now be updated to reflect the results. Once again, run the query that shows all the data from the user table (the same one that you previously ran twice), and you should notice that the first row has been updated in accordance with your UPDATE query.
 
@@ -99,8 +99,8 @@ INSERT INTO `User` (`id`, `fName`, `lName`, `DoB`, `gender`, `email`, `program`)
    ALTER TABLE user
    DROP COLUMN Age;
    ```
-   Again, we are altering the table here, but instead of using the 'ADD' clause, we have decided to instead use the [DROP](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#drop) clause. As you can probably guess, the purpose of this query then is to remove the 'Age' column from our user table. If we run this query, and our user query one last time, we should see that we have successfully dropped the 'Age' column from the user table!
+   Again, we are altering the table here, but instead of using the 'ADD' clause, we have decided to instead use the [DROP](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#drop) clause. As you can probably guess, the purpose of this query then is to remove the 'Age' column from our user table. If we run this query, and our user query one last time, we should see that we have successfully dropped the 'Age' column from the user table!
 
    ![MySQL Drop](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/Drop_table.png?raw=true)
 
-   In this section, you have learned to populate an existing table with values, as well as how to modify an existing table, by adding, removing, and updating the data stored in the table. In the next section [Query to Display Data](https://dvalle22.github.io/Mel-Danilo-Cody/docs/display/#query-to-display-data), you will learn how to write queries that will allow you to read from your table.
+   In this section, you have learned to populate an existing table with values, as well as how to modify an existing table, by adding, removing, and updating the data stored in the table. In the next section, [Query to Display Data](https://dvalle22.github.io/Mel-Danilo-Cody/docs/display/#query-to-display-data), you will learn how to write queries that will allow you to read from your table.

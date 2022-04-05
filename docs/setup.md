@@ -1,10 +1,10 @@
 ---
 layout: default
-title: MySQL Workbench Setup
+title: MySQL Workbench Setup Guide
 nav_order: 2
 ---
 
-# MySQL Workbench Setup
+# MySQL Workbench Setup Guide
 
 Welcome to MySQL Workbench User Guide, the guide for frequently performed tasks on MySQL Workbench.
 
