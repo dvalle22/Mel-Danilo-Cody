@@ -16,7 +16,7 @@ A singular row in a database consisting of a set of related data
 ##### [SELECT]
 Selects data from a database
 
-##### [*]
+##### [\*]
 Asking the query to return all columns of the queried tables
 
 ##### [FROM]
