@@ -2,7 +2,6 @@
 layout: default
 title: Glossary of Definition
 nav_order: 7
-permalink: /docs/Glossary
 ---
 
 #GLOSSARY
