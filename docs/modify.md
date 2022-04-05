@@ -10,7 +10,7 @@ In this section, you will learn how to modify data from an existing table. If yo
 ## Populating a Table
 After creating a table in MySQL, you are able to add data to the table by writing a query, by using the [INSERT INTO](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#insert-into) statement.
 
-Copy the code sample below, and try running it on your own MySQL workbench:
+1. Copy the code sample below, and try running it on your own MySQL workbench:
 
 ```sql
 INSERT INTO `User` (`id`, `fName`, `lName`, `DoB`, `gender`, `email`, `program`) VALUES
@@ -37,7 +37,7 @@ INSERT INTO `User` (`id`, `fName`, `lName`, `DoB`, `gender`, `email`, `program`)
 (66234595, 'Lavinia', 'Pinto', '1992-01-19', 'Male', 'lavinia@hotmail.com', 'Business');
 ```
 
-Paste the contents, into a query tab, and run it using the lightning bolt icon. Essentially, what we are doing with this query, is that we are inserting into an existing 'User' table a series of 21 [Tuples](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#tuple), which will populate the table with all the provided information, to store for future usage.
+2. Paste the contents, into a query tab, and run it using the lightning bolt icon. Essentially, what we are doing with this query, is that we are inserting into an existing 'User' table a series of 21 [Tuples](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#tuple), which will populate the table with all the provided information, to store for future usage.
 
 ![MySQL example table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/sample workbench.png?raw=true)
 
@@ -45,7 +45,7 @@ If you have successfully executed the query above, you should see a green checkm
 
 ![MySQL Sample Output](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/Table_output_1.png?raw=true)
 
-To confirm that you've succesfully added the provided data into your table, you can write a simple query:
+3. To confirm that you've succesfully added the provided data into your table, you can write a simple query:
 ```sql
 SELECT * FROM user_demo.user;
 ```
@@ -55,11 +55,11 @@ After running the query, you should see a Result Grid made up of every column in
 
 ![MySQL full_user_table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/table_screenshot.png?raw=true)
 
-Alternatively, you can simply right click the user table, and click on the first option: **Select Rows - Limit 1000**, to display the first 1000 results in your table. In this case, our table only has 21 tuples, therefore, it will display the full table
+4. Alternatively, you can simply right click the user table, and click on the first option: **Select Rows - Limit 1000**, to display the first 1000 results in your table. In this case, our table only has 21 tuples, therefore, it will display the full table
 
 ![MySQL Select Rows](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/Select_Rows.png?raw=true)
 ## Altering a Table
-Now that the user table is populated with a list of users and their accompanying information, we can continue to modify the table. Let's say that you wanted to start recording the age of all your students, and you wanted to add an age column to your database. To do that, you would have to alter your table:
+1. Now that the user table is populated with a list of users and their accompanying information, we can continue to modify the table. Let's say that you wanted to start recording the age of all your students, and you wanted to add an age column to your database. To do that, you would have to alter your table:
 
 ```sql
 ALTER TABLE user
@@ -70,7 +70,7 @@ Use the statement [ALTER TABLE](https://dvalle22.github.io/Mel-Danilo-Cody/docs/
 
 ![MySQL Add Column](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/Alter_table_add.png?raw=true)
 
-To check that you've correctly added the 'Age' column into your user table, you can once again run this simple query, like we did above:
+2. To check that you've correctly added the 'Age' column into your user table, you can once again run this simple query, like we did above:
 ```sql
 SELECT * FROM user_demo.user;
 ```
@@ -80,7 +80,7 @@ The resulting output should look something like this:
 
 Notice that the Values in the Age column are at present [NULL](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#null) because we have not recorded an age for any of our students yet!
 
-Now let's say we want to set the age of one of our students, Eduard, to 20. We can do so, by writing a query like the one shown below:
+3. Now let's say we want to set the age of one of our students, Eduard, to 20. We can do so, by writing a query like the one shown below:
 ```sql
 UPDATE user
 SET Age = 20
@@ -88,11 +88,11 @@ WHERE fname = 'Eduard';
 ```
 We use [UPDATE](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#drop) here to modify data in an existing table. The [SET](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#set) clause is then used in conjuction with UPDATE to specificy exactly which columns we want to update. Finally, the [WHERE](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#where) clause is used as a filter to update only the columns that matches our required constraint. Here, we are saying: update the 'user' table, and set the column 'Age' to 20, if and only if the first name of the user is 'Eduard'.
 
-Upon running the query, your user table should now be updated to reflect the results. Once again, run the query that shows all the data from the user table (the same one that you previously ran twice), and you should notice that the first row has been updated in accordance with your UPDATE query.
+4. Upon running the query, your user table should now be updated to reflect the results. Once again, run the query that shows all the data from the user table (the same one that you previously ran twice), and you should notice that the first row has been updated in accordance with your UPDATE query.
 
 ![MySQL Eduard](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/Eduard.png?raw=true)
 
-Great, we've managed to add Eduard's age, to the table, but why do we need his age when we already know his date of birth? It's best practice to keep your database clean, and only filled with the most needed information. Let's say then that we have decided to remove the Age column from our user table due to redundancy. Removing a column from a table is just as easy as adding one, and the query should look very similar:
+5. Great, we've managed to add Eduard's age, to the table, but why do we need his age when we already know his date of birth? It's best practice to keep your database clean, and only filled with the most needed information. Let's say then that we have decided to remove the Age column from our user table due to redundancy. Removing a column from a table is just as easy as adding one, and the query should look very similar:
 ```sql
 ALTER TABLE user
 DROP COLUMN Age;
