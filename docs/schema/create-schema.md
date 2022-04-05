@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Create a schema
-parent: Schema Setup and Adding Tables
+parent: Schema and Table Setup
 nav_order: 1
 ---
 
