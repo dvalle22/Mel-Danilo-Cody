@@ -49,7 +49,7 @@ nav_order: 1
     
     ![MySQL Workbench run query result](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/execute-query-result.png?raw=true)
 
-    Your schema has been created. However, it has not showed up in the Schemas tab. Therefore, we need to reset the Schemas tab.
+    Your schema has been created. However, it has not showed up in the Schemas tab. Therefore, you need to reload the Schemas tab.
     
 6. Hover your cursor over the Schemas tab. Right click and select 'Refresh All'.
     
@@ -58,3 +58,5 @@ nav_order: 1
     The newly created schema will now appear in the Schemas tab.
 
     ![MySQL Workbench show new schema](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/update-schema-show-up.png?raw=true)
+    
+    Next, we will create our first table inside this new schema, 'user_demo'.
