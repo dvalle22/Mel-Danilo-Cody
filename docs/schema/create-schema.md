@@ -7,7 +7,7 @@ nav_order: 1
 
 # Create a schema
 
-1. Open your Workbench. If you have set up correctly, a MySQL Local instance will appear in the homepage.
+1. Open your Workbench. If you have set it up correctly, a MySQL Local instance will appear on the homepage.
     
     ![MySQL Workbench homepage with local instance](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/local-instance-hightlighted.png?raw=true)
     
@@ -45,11 +45,11 @@ nav_order: 1
         ⚠️: This icon will execute every SQL query that exists in the SQL file.
         > Make sure you write the queries correctly before clicking this icon.
     
-    After executing the SQL queries, the Output tab below will show the status of the execution. If you see the green check mark, the queries has been run successfully.
+    After executing the SQL queries, the Output tab below will show the status of the execution. If you see the green checkmark, the queries have run successfully.
     
     ![MySQL Workbench run query result](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/execute-query-result.png?raw=true)
 
-    Your schema has been created. However, it has not showed up in the Schemas tab. Therefore, you need to reload the Schemas tab.
+    Your schema has been created. However, it has not shown up in the Schemas tab. Therefore, you need to reload the Schemas tab.
     
 6. Hover your cursor over the Schemas tab. Right click and select 'Refresh All'.
     

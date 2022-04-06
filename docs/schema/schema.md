@@ -10,7 +10,7 @@ permalink: /docs/schema
 
 In a SQL database, a schema is a list of logical structures of data, such as tables. Tables are the basic database objects that behave as containers for the data, in which the data will be logically organized in rows and columns format.
 
-To put it simply, a schema is similar to a folder in your computer, while a table is a file inside it. In order to store and manage data with SQL, you will need schemas and tables.
+To put it simply, a schema is similar to a folder on your computer, while a table is a file inside it. In order to store and manage data with SQL, you will need schemas and tables.
 
 In this section, you will start by creating your first schema and table.
 
