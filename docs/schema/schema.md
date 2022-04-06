@@ -18,7 +18,7 @@ In this section, you will start by creating your first schema and table.
 
 Before attempting this section, make sure you have your MySQL and MySQL Workbench installed correctly.
 
-If you haven't done so, consult our [MySQL Workbench Setup Guide](docs/setup).
+If you haven't done so, consult our [MySQL Workbench Setup Guide](https://dvalle22.github.io/Mel-Danilo-Cody/docs/setup/).
 
 ##### Outcome
 
