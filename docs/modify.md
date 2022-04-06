@@ -50,7 +50,7 @@ After creating a table in MySQL, you are able to add data to the table by writin
     SELECT * FROM user_demo.user;
     ```
     
-   Use the [SELECT](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#select) keyword when you want to select data from your database. The [\*](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#*) means that you want to receive ALL of the columns from the queried table. [FROM](https://dvalle22.github.io/Mel-Danilo-Cody/docs/Glossary/#from) is straightforward, and is used as a keyword to denote the table that you want to read from.
+   Use the [SELECT](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#select) keyword when you want to select data from your database. The [\*](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#*) means that you want to receive ALL of the columns from the queried table. [FROM](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#from) is straightforward, and is used as a keyword to denote the table that you want to read from.
 
    After running the query, you should see a Result Grid made up of every column in the user table.
 
