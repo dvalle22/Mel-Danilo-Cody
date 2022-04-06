@@ -31,14 +31,14 @@ The user documentation in MySQL Workbench User Guide is intended for the followi
 - MySQL Workbench 8.0 CE
 
 ## Prerequisites
-- Have access to a working computer and ability to performs basic computer-oriented tasks
-- Have ability to navigate yourself about various interfaces, given a set of instructions
-- Already set up a MySQL connection (If not, please refer to our [MySQL Workbench Setup Guide](docs/setup))
+- Have access to a working computer and the ability to perform basic computer-oriented tasks.
+- Have the ability to navigate yourself about various interfaces, given a set of instructions.
+- Already set up a MySQL connection (If not, please refer to our [MySQL Workbench Setup Guide](docs/setup)).
 
 ## Why MySQL
 - MySQL is one of the easiest and most secure ways to maintain and update a database.
 - MySQL provides high-performance at a low cost. In fact, MySQL community edition is free!
-- Flexible and usable across all major platforms, including: Windows, Mac, Linux, Ubuntu and more.
+- Flexible and usable across all major platforms, including Windows, Mac, Linux, Ubuntu and more.
 
 ## Procedures Overview
 [MySQL Workbench setup](docs/setup)
@@ -51,12 +51,12 @@ The user documentation in MySQL Workbench User Guide is intended for the followi
 
 [MySQL Workbench Tips](docs/tips)
 
-[MySQL Workbench Glossary of Definitions](docs/glossary)
+[Glossary of Definitions](docs/glossary)
 
 ## Typographical Conventions
     
     📖: Additional information
-    > This icon notes where additional information, such as notes and shortcut, is provided.
+    > This icon notes where additional information, such as notes and shortcuts, is provided.
     
     ⚠️: Dangerous action
     > This icon notes where a dangerous action could take place.
