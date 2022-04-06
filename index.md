@@ -33,7 +33,7 @@ The user documentation in MySQL Workbench User Guide is intended for the followi
 ## Prerequisites
 - Have access to a working computer and the ability to perform basic computer-oriented tasks.
 - Have the ability to navigate various interfaces using a set of given instructions.
-- Already set up a MySQL connection (If not, please refer to our [MySQL Workbench Setup Guide](docs/setup)).
+- Already set up a MySQL connection. If not, please refer to our [MySQL Workbench Setup Guide](docs/setup).
 
 ## Why MySQL
 - MySQL is one of the easiest and most secure ways to maintain and update a database.
