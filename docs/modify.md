@@ -70,7 +70,7 @@ After creating a table in MySQL, you are able to add data to the table by writin
 
    Use the statement [ALTER TABLE](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#alter-table) when you want to add, delete or modify columns in an existing table. So here, you are altering the user table, and the method you are using to alter it with is by [Adding](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#add) a column named age, which will store an integer. Again, run the query by clicking the lightning bolt. If successful, you should once again see a green checkmark in your Output terminal:
 
-   ![MySQL Add Column](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/Alter_table_add.png?raw=true)
+   ![MySQL Add Column](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/Alter_table_add.png?raw=true){: style="height: 200px;" }
 
 2. To check that you've correctly added the 'Age' column into your user table, you can once again run this simple query, like we did above:
    ```sql
