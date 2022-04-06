@@ -78,7 +78,7 @@ After creating a table in MySQL, you are able to add data to the table by writin
    ```
    The resulting output should look something like this:
 
-   ![MySQL Null Table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/Null_table.png?raw=true)
+   ![MySQL Null Table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/smaller table1.png?raw=true)
 
    Notice that the Values in the Age column are at present [NULL](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#null) because we have not recorded an age for any of our students yet!
 
@@ -101,6 +101,6 @@ After creating a table in MySQL, you are able to add data to the table by writin
    ```
    Again, we are altering the table here, but instead of using the 'ADD' clause, we have decided to instead use the [DROP](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#drop) clause. As you can probably guess, the purpose of this query then is to remove the 'Age' column from our user table. If we run this query, and our user query one last time, we should see that we have successfully dropped the 'Age' column from the user table!
 
-   ![MySQL Drop](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/Drop_table.png?raw=true)
+   ![MySQL Drop](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/smaller table2.png?raw=true)
 
    In this section, you have learned to populate an existing table with values, as well as how to modify an existing table, by adding, removing, and updating the data stored in the table. In the next section, [Query to Display Data](https://dvalle22.github.io/Mel-Danilo-Cody/docs/display/#query-to-display-data), you will learn how to write queries that will allow you to read from your table.
