@@ -86,7 +86,7 @@ After creating a table in MySQL, you are able to add data to the table by writin
    ```sql
    UPDATE user
    SET Age = 20
-   WHERE fname = 'Eduard';
+   WHERE id = 9734109;
    ```
    We use [UPDATE](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#drop) here to modify data in an existing table. The [SET](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#set) clause is then used in conjuction with UPDATE to specificy exactly which columns we want to update. Finally, the [WHERE](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#where) clause is used as a filter to update only the columns that matches our required constraint. Here, we are saying: update the 'user' table, and set the column 'Age' to 20, if and only if the first name of the user is 'Eduard'.
 
