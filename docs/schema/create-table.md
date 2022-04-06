@@ -13,7 +13,7 @@ In this tutorial, you will be a teacher who needs to keep a record of students w
 
 With this information, let's create your 'User' table.
 
-1. A table needs a schema to locate on. After creating a schema, you need to manually selected that schema to be the current schema. Check if you are inside a schema by looking at the Schemas tab.
+1. A table needs a schema to locate on. After creating a schema, you need to manually select that schema to be the current schema. Check if you are inside a schema by looking at the Schemas tab.
 
     ![MySQL Workbench no schema selected](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/no-schema-selected.png?raw=true)
     
@@ -51,11 +51,11 @@ With this information, let's create your 'User' table.
     
         ⚠️: If you keep the line `CREATE SCHEMA IF NOT EXISTS user_demo;`, your Output tab will
         print a warning message.
-        > This is because MySQL detects that there is potentially two schemas with the same name.
-        > This is not an error, because the keyword 'IF NOT EXISTS' prevents this from happening.
+        > This is because MySQL detects that there are potentially two schemas with the same name.
+        > This is not an error because the keyword 'IF NOT EXISTS' prevents this from happening.
         > Without 'IF NOT EXISTS', a red 'X' mark will appear in the Output tab indicating an error. 
     
-    Your table has been created. However, it has not showed up in the Schemas tab. Therefore, we need to reset the Schemas tab.
+    Your table has been created. However, it has not showed up in the Schemas tab. Therefore, you need to reload the Schemas tab.
     
 5. Hover your cursor over the Schemas tab. Right click and select 'Refresh All'.
     
@@ -65,7 +65,8 @@ With this information, let's create your 'User' table.
     
     ![MySQL Workbench table updated](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/update-table-show-up.png?raw=true)
     
-6. Check if you have created the correct table by double clicked on 'User' under 'Tables' under 'user_demo'. The Information tab below will display the columns in 'User'. Make sure it match with the data types we specify in the code before proceeding to the next section, [Query to Display Data](docs/display).
+6. Check if you have created the correct table by double clicked on 'User' under 'Tables' under 'user_demo'. The Information tab below will display the columns in 'User'.
     
     ![MySQL Workbench see new table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/update-table-show-details.png?raw=true)
     
+     Make sure it match with the data types you specify in the code before proceeding to the next section, [Query to Display Data](docs/display).

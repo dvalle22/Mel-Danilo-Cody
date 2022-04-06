@@ -12,34 +12,34 @@ After creating a table in MySQL, you are able to add data to the table by writin
 
 1. Copy the code sample below, and try running it on your own MySQL workbench:
 
-```sql
-INSERT INTO `User` (`id`, `fName`, `lName`, `DoB`, `gender`, `email`, `program`) VALUES
-(9734109, 'Eduard', 'Khil', '2001-12-22', 'Male', 'trolleyguy@gmail.com', 'Computing'),
-(9734512, 'Mikhail', 'Mishustin', '2003-09-16', 'Male', 'mikki.mishutin@hotmail.com', 'Accounting'),
-(19084223, 'Lucy', 'Ali', '1994-02-01', 'Female', 'lucy.ali1@uq.edu.au', 'Business'),
-(19087623, 'John', 'Monarch', '1995-01-06', 'Male', 'john.monarch@uq.edu.au', 'Computing'),
-(19088623, 'Ursula', 'Smith', '1997-07-09', 'Female', 'u.smith@qut.edu.au', 'Computing'),
-(19088644, 'Marcus', 'Jacobs', '1999-06-04', 'Male', NULL, 'Accounting'),
-(19439623, 'Nevena', 'Ivanovic', '2000-12-21', 'Female', 'Nevena@gmail.com', 'Business'),
-(19488623, 'Leo', 'Montgomery', '1989-01-01', 'Male', 'leolovescars@gmail.com', 'Engineering'),
-(19609863, 'Edi', 'Rama', '1987-03-03', 'Male', 'edi.rama@uq.edu.au', 'Computing'),
-(22732951, 'Jamie', 'Sleeman', '1999-06-29', 'Male', NULL, 'Engineering'),
-(23982121, 'Hye-sun', 'Ku', '1998-07-04', 'Female', 'ku@uq.edu.au', 'Engineering'),
-(23987721, 'Min-ho', 'Lee', '2001-05-23', 'Female', 'lee@uq.edu.au', 'Business'),
-(38982921, 'Jeong-hyeok', 'Ri', '2002-06-22', NULL, 'ri.jonghyok@hotmail.com', 'Accounting'),
-(41284471, 'Bong-soon', 'Park', '1994-08-06', 'Male', 'park.bongsoon@ainsoft.com', 'Computing'),
-(42180081, 'Se-ri', 'Yoon', '1994-04-5', 'Female', 'yoon.seri@queen.com', 'Engineering'),
-(66234500, 'Sven', 'Kirsch', '1999-05-13', 'Male', 'sven.kirsch@uq.edu.au', 'Engineering'),
-(66234591, 'Matthieu', 'Loiselle', '2002-08-14', NULL, 'matt.loiselle@uq.edu.au', 'Accounting'),
-(66234592, 'Gabriel', 'Duperre', '2001-07-24', 'Male', 'Gabe.dupe@gmail.comm', 'Accounting'),
-(66234593, 'Honore', 'Avare', '1991-06-25', 'Male', 'honore@hotmail', 'Accounting'),
-(66234594, 'Margit', 'Gade', '1993-04-24', 'Female', 'margit.gade1@uq.edu.au', 'Business'),
-(66234595, 'Lavinia', 'Pinto', '1992-01-19', 'Male', 'lavinia@hotmail.com', 'Business');
-```
+   ```sql
+   INSERT INTO `User` (`id`, `fName`, `lName`, `DoB`, `gender`, `email`, `program`) VALUES
+   (9734109, 'Eduard', 'Khil', '2001-12-22', 'Male', 'trolleyguy@gmail.com', 'Computing'),
+   (9734512, 'Mikhail', 'Mishustin', '2003-09-16', 'Male', 'mikki.mishutin@hotmail.com', 'Accounting'),
+   (19084223, 'Lucy', 'Ali', '1994-02-01', 'Female', 'lucy.ali1@uq.edu.au', 'Business'),
+   (19087623, 'John', 'Monarch', '1995-01-06', 'Male', 'john.monarch@uq.edu.au', 'Computing'),
+   (19088623, 'Ursula', 'Smith', '1997-07-09', 'Female', 'u.smith@qut.edu.au', 'Computing'),
+   (19088644, 'Marcus', 'Jacobs', '1999-06-04', 'Male', NULL, 'Accounting'),
+   (19439623, 'Nevena', 'Ivanovic', '2000-12-21', 'Female', 'Nevena@gmail.com', 'Business'),
+   (19488623, 'Leo', 'Montgomery', '1989-01-01', 'Male', 'leolovescars@gmail.com', 'Engineering'),
+   (19609863, 'Edi', 'Rama', '1987-03-03', 'Male', 'edi.rama@uq.edu.au', 'Computing'),
+   (22732951, 'Jamie', 'Sleeman', '1999-06-29', 'Male', NULL, 'Engineering'),
+   (23982121, 'Hye-sun', 'Ku', '1998-07-04', 'Female', 'ku@uq.edu.au', 'Engineering'),
+   (23987721, 'Min-ho', 'Lee', '2001-05-23', 'Female', 'lee@uq.edu.au', 'Business'),
+   (38982921, 'Jeong-hyeok', 'Ri', '2002-06-22', NULL, 'ri.jonghyok@hotmail.com', 'Accounting'),
+   (41284471, 'Bong-soon', 'Park', '1994-08-06', 'Male', 'park.bongsoon@ainsoft.com', 'Computing'),
+   (42180081, 'Se-ri', 'Yoon', '1994-04-5', 'Female', 'yoon.seri@queen.com', 'Engineering'),
+   (66234500, 'Sven', 'Kirsch', '1999-05-13', 'Male', 'sven.kirsch@uq.edu.au', 'Engineering'),
+   (66234591, 'Matthieu', 'Loiselle', '2002-08-14', NULL, 'matt.loiselle@uq.edu.au', 'Accounting'),
+   (66234592, 'Gabriel', 'Duperre', '2001-07-24', 'Male', 'Gabe.dupe@gmail.comm', 'Accounting'),
+   (66234593, 'Honore', 'Avare', '1991-06-25', 'Male', 'honore@hotmail', 'Accounting'),
+   (66234594, 'Margit', 'Gade', '1993-04-24', 'Female', 'margit.gade1@uq.edu.au', 'Business'),
+   (66234595, 'Lavinia', 'Pinto', '1992-01-19', 'Male', 'lavinia@hotmail.com', 'Business');
+   ```
 
 2. Paste the contents, into a query tab, and run it using the lightning bolt icon. Essentially, what we are doing with this query, is that we are inserting into an existing 'User' table a series of 21 [Tuples](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#tuple), which will populate the table with all the provided information, to store for future usage.
 
-   ![MySQL example table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/sample workbench.png?raw=true)
+   ![MySQL example table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/insert into sql.png?raw=true)
 
    If you have successfully executed the query above, you should see a green checkmark in the output terminal, with a message saying 21 row(s) affected, which means        that you succesfully added all 21 users to your user table!
 
@@ -54,7 +54,7 @@ INSERT INTO `User` (`id`, `fName`, `lName`, `DoB`, `gender`, `email`, `program`)
 
    After running the query, you should see a Result Grid made up of every column in the user table.
 
-   ![MySQL full_user_table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/table_screenshot.png?raw=true)
+   ![MySQL full_user_table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/results sql.png?raw=true)
 
 4. Alternatively, you can simply right click the user table, and click on the first option: **Select Rows - Limit 1000**, to display the first 1000 results in your table. In this case, our table only has 21 tuples, therefore, it will display the full table
 
@@ -78,7 +78,7 @@ INSERT INTO `User` (`id`, `fName`, `lName`, `DoB`, `gender`, `email`, `program`)
    ```
    The resulting output should look something like this:
 
-   ![MySQL Null Table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/Null_table.png?raw=true)
+   ![MySQL Null Table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/smaller table1.png?raw=true)
 
    Notice that the Values in the Age column are at present [NULL](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#null) because we have not recorded an age for any of our students yet!
 
@@ -86,7 +86,7 @@ INSERT INTO `User` (`id`, `fName`, `lName`, `DoB`, `gender`, `email`, `program`)
    ```sql
    UPDATE user
    SET Age = 20
-   WHERE fname = 'Eduard';
+   WHERE id = 9734109;
    ```
    We use [UPDATE](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#drop) here to modify data in an existing table. The [SET](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#set) clause is then used in conjuction with UPDATE to specificy exactly which columns we want to update. Finally, the [WHERE](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#where) clause is used as a filter to update only the columns that matches our required constraint. Here, we are saying: update the 'user' table, and set the column 'Age' to 20, if and only if the first name of the user is 'Eduard'.
 
@@ -101,6 +101,6 @@ INSERT INTO `User` (`id`, `fName`, `lName`, `DoB`, `gender`, `email`, `program`)
    ```
    Again, we are altering the table here, but instead of using the 'ADD' clause, we have decided to instead use the [DROP](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#drop) clause. As you can probably guess, the purpose of this query then is to remove the 'Age' column from our user table. If we run this query, and our user query one last time, we should see that we have successfully dropped the 'Age' column from the user table!
 
-   ![MySQL Drop](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/Drop_table.png?raw=true)
+   ![MySQL Drop](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/smaller table2.png?raw=true)
 
    In this section, you have learned to populate an existing table with values, as well as how to modify an existing table, by adding, removing, and updating the data stored in the table. In the next section, [Query to Display Data](https://dvalle22.github.io/Mel-Danilo-Cody/docs/display/#query-to-display-data), you will learn how to write queries that will allow you to read from your table.
