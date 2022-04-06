@@ -8,7 +8,8 @@ permalink: /docs/tips
 # MySQL Workbench Tips
 
 ## Query Display
-Statements, clauses, and various datatypes in MySQL will often be highlighted in another color. \
+Statements, clauses, and various data types in MySQL will often be highlighted in another color.
+
 Here is an example:
 
 ```sql
@@ -18,7 +19,7 @@ WHERE name = "Grace" AND dob > 20000000;
 ```
 
 ## Troubleshooting
-With MySQL Workbench, you can often troubleshoot your own errors, by highlighting over red_underlined text as can be seen in the example below.
+With MySQL Workbench, you can often troubleshoot your own errors, by highlighting over red and underlined text as can be seen in the example below.
 
 ```sql
 SELECT *
@@ -29,6 +30,8 @@ WHERE reefName IN [SELECT] // (1)
 ```
 
 ## Basic Data Types
+
+Here is the list of some basic data types that SQL supports:
 
 ### String Data Types
 

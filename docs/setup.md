@@ -14,7 +14,7 @@ Welcome to MySQL Workbench User Guide, the guide for frequently performed tasks 
 
 ## Installation
 
-In order to proceed with with this user guide, you will need MySQL and MySQL Workbench 8.0 CE installed on your device.
+In order to proceed with this user guide, you will need MySQL and MySQL Workbench 8.0 CE installed on your device.
 
 If you haven't set up MySQL Workbench, please consult these links below for a correct installation:
 
