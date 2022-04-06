@@ -32,7 +32,7 @@ The user documentation in MySQL Workbench User Guide is intended for the followi
 
 ## Prerequisites
 - Have access to a working computer and ability to performs basic computer-oriented tasks
-- Have bility to navigate yourself about various interfaces, given a set of instructions
+- Have ability to navigate yourself about various interfaces, given a set of instructions
 - Already set up a MySQL connection (If not, please refer to our [MySQL Workbench Setup Guide](docs/setup))
 
 ## Why MySQL
@@ -51,7 +51,7 @@ The user documentation in MySQL Workbench User Guide is intended for the followi
 
 [MySQL Workbench Tips](docs/tips)
 
-[MySQL Workbench Tips](docs/glossary)
+[MySQL Workbench Glossary of Definitions](docs/glossary)
 
 ## Typographical Conventions
     
