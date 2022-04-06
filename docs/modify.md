@@ -39,7 +39,7 @@ After creating a table in MySQL, you are able to add data to the table by writin
 
 2. Paste the contents, into a query tab, and run it using the lightning bolt icon. Essentially, what we are doing with this query, is that we are inserting into an existing 'User' table a series of 21 [Tuples](https://dvalle22.github.io/Mel-Danilo-Cody/docs/glossary/#tuple), which will populate the table with all the provided information, to store for future usage.
 
-   ![MySQL example table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/sample workbench.png?raw=true)
+   ![MySQL example table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/insert into sql.png?raw=true)
 
    If you have successfully executed the query above, you should see a green checkmark in the output terminal, with a message saying 21 row(s) affected, which means        that you succesfully added all 21 users to your user table!
 
@@ -54,7 +54,7 @@ After creating a table in MySQL, you are able to add data to the table by writin
 
    After running the query, you should see a Result Grid made up of every column in the user table.
 
-   ![MySQL full_user_table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/table_screenshot.png?raw=true)
+   ![MySQL full_user_table](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/results sql.png?raw=true)
 
 4. Alternatively, you can simply right click the user table, and click on the first option: **Select Rows - Limit 1000**, to display the first 1000 results in your table. In this case, our table only has 21 tuples, therefore, it will display the full table
 
