@@ -32,16 +32,16 @@ The user documentation in MySQL Workbench User Guide is intended for the followi
 
 ## Prerequisites
 - Have access to a working computer and the ability to perform basic computer-oriented tasks.
-- Have the ability to navigate yourself about various interfaces, given a set of instructions.
+- Have the ability to navigate various interfaces using a set of given instructions.
 - Already set up a MySQL connection (If not, please refer to our [MySQL Workbench Setup Guide](docs/setup)).
 
 ## Why MySQL
 - MySQL is one of the easiest and most secure ways to maintain and update a database.
 - MySQL provides high-performance at a low cost. In fact, MySQL community edition is free!
-- Flexible and usable across all major platforms, including Windows, Mac, Linux, Ubuntu and more.
+- MySQL is flexible and usable across all major platforms including Windows, Mac, Linux, Ubuntu and more.
 
 ## Procedures Overview
-[MySQL Workbench setup](docs/setup)
+[MySQL Workbench Setup](docs/setup)
 
 [Schema and Table Setup](docs/schema)
 
