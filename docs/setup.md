@@ -23,6 +23,6 @@ If you haven't set up MySQL Workbench, please consult these links below for a co
  
 After you finish installing and setting up, open your MySQL Workbench.
 
-If you can see something similar to this image, congratulation! You can now proceed to the next step.
+If you see something similar to this image, congratulations! You can now proceed to the first step, [Schema and Table Setup](https://dvalle22.github.io/Mel-Danilo-Cody/docs/schema).
 
 ![MySQL Workbench homepage](https://github.com/dvalle22/Mel-Danilo-Cody/blob/gh-pages/assets/images/homepage.png?raw=true)
